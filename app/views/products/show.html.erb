@@ -9,6 +9,7 @@
     <p>
         <strong><%= @product.description %></strong>
     </p>
+    <%= image_tag @product.featured_image if @product.featured_image.attached? %>
 <% end %>
 
 <%= link_to "Back", products_path %>
