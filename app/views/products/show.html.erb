@@ -1,9 +1,13 @@
 <h1>Product Details</h1>
 <p>Find me in app/views/products/show.html.erb</p>
+
 <% cache @product do %>
     <p>
         <strong>Name:</strong>
         <%= @product.name %>
+    </p>
+    <p>
+        <strong><%= @product.description %></strong>
     </p>
 <% end %>
 
