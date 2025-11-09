@@ -30,5 +30,5 @@ Rails.application.routes.draw do
   # ############################################################################
 
 
-  # root "posts#index"
+  root "products#index"
 end
